@@ -1,6 +1,6 @@
 #pragma once
 class stack
-{
+{	//atributos
 	char content[256];
 	stack *next;
 public:
