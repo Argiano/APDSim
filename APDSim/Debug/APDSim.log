@@ -1,0 +1,8 @@
+﻿  stdafx.cpp
+  APDSim.cpp
+  node.cpp
+  stack.cpp
+e:\proyects\c++\apdsim\apdsim\node.cpp(5): warning C26439: This kind of function may not throw. Declare it 'noexcept' (f.6).
+e:\proyects\c++\apdsim\apdsim\stack.cpp(5): warning C26495: Variable 'stack::content' is uninitialized. Always initialize a member variable (type.6).
+e:\proyects\c++\apdsim\apdsim\stack.cpp(5): warning C26439: This kind of function may not throw. Declare it 'noexcept' (f.6).
+e:\proyects\c++\apdsim\apdsim\stack.cpp(9): warning C26495: Variable 'stack::next' is uninitialized. Always initialize a member variable (type.6).
