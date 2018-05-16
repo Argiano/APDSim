@@ -7,16 +7,22 @@ node::node()
 {
 }
 
-void node::insertar(node ** tabla, std::string transition)
+void node::insertar(node ** tabla,std::string state, std::string transition)
 {
-	node *start = tabla[pos(transition)];
-	start->content = transition.substr(transition.find(","), transition.find("=")-5);
-	start->transition = transition.substr(transition.find("="));
+	if (existState(*tabla,state));
 }
 
-int node::pos(std::string transition)
+bool node::existState(node *start, std::string state)
 {
-	return stoi(transition.substr(3, 1), nullptr, 10);
+	bool exists = false;
+	node *n = start;
+	do
+	{
+		exists = state.compare(n->content);
+		n = n->down;
+	} while (n != NULL);
+
+	return exists;
 }
 
 

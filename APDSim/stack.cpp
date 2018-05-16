@@ -1,6 +1,6 @@
 #include "stdafx.h"
 #include "stack.h"
-#include <string.h>
+#include <string>
 
 stack::stack()
 {

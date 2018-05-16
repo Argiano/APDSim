@@ -5,10 +5,11 @@ class node
 	std::string content;
 	std::string transition;
 	node *next;
+	node *down;
 public:
 	node();
-	void insertar(node ** tabla, std::string transition);
-	int pos(std::string transition);
+	void insertar(node ** tabla,std::string state, std::string transition);
+	bool existState(node *start, std::string state);
 	~node();
 };
 
