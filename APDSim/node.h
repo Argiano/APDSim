@@ -8,8 +8,16 @@ class node
 	node *down;
 public:
 	node();
-	void insertar(node ** tabla,std::string state, std::string transition);
-	bool existState(node *start, std::string state);
+	node(std::string content);
+	void insertar(node ** tabla, std::string state, std::string transition);
+	void insertarTrans(node * state, std::string transition);
+	int existState(node *tabla, std::string state);
+	std::string getContent();
+	std::string getTransition();
+	node * getDown();
+	node * getNext();
+	void printTable(node**table);
+	std::string getTransition(node * table, std::string state,std::string content);
 	~node();
 };
 

@@ -2,14 +2,40 @@
     <SFA>
       <FILEPATH>e:\proyects\c++\apdsim\apdsim\</FILEPATH>
       <FILENAME>node.cpp</FILENAME>
-      <LINE>5</LINE>
+      <LINE>6</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'node::next' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>node::{ctor}</FUNCTION>
+    <DECORATED>??0node@@QAE@XZ</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>e:\proyects\c++\apdsim\apdsim\</FILEPATH>
+      <FILENAME>node.cpp</FILENAME>
+      <LINE>6</LINE>
       <COLUMN>6</COLUMN>
     </SFA>
     <DEFECTCODE>26439</DEFECTCODE>
     <DESCRIPTION>This kind of function may not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
     <FUNCTION>node::{ctor}</FUNCTION>
     <DECORATED>??0node@@QAE@XZ</DECORATED>
-    <FUNCLINE>5</FUNCLINE>
+    <FUNCLINE>6</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>e:\proyects\c++\apdsim\apdsim\</FILEPATH>
+      <FILENAME>node.cpp</FILENAME>
+      <LINE>10</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'node::next' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>node::{ctor}</FUNCTION>
+    <DECORATED>??0node@@QAE@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z</DECORATED>
+    <FUNCLINE>10</FUNCLINE>
     <PATH></PATH>
   </DEFECT><DEFECT>
     <SFA>
@@ -19,7 +45,7 @@
       <COLUMN>7</COLUMN>
     </SFA>
     <DEFECTCODE>26495</DEFECTCODE>
-    <DESCRIPTION>Variable 'stack::content' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <DESCRIPTION>Variable 'stack::next' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
     <FUNCTION>stack::{ctor}</FUNCTION>
     <DECORATED>??0stack@@QAE@XZ</DECORATED>
     <FUNCLINE>5</FUNCLINE>

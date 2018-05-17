@@ -8,7 +8,7 @@
       <COLUMN>7</COLUMN>
     </SFA>
     <DEFECTCODE>26495</DEFECTCODE>
-    <DESCRIPTION>Variable 'stack::content' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <DESCRIPTION>Variable 'stack::next' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
     <FUNCTION>stack::{ctor}</FUNCTION>
     <DECORATED>??0stack@@QAE@XZ</DECORATED>
     <FUNCLINE>5</FUNCLINE>
@@ -22,7 +22,7 @@
       <COLUMN>7</COLUMN>
     </SFA>
     <DEFECTCODE>26495</DEFECTCODE>
-    <DESCRIPTION>Variable 'stack::next' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <DESCRIPTION>Variable 'stack::content' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
     <FUNCTION>stack::{ctor}</FUNCTION>
     <DECORATED>??0stack@@QAE@XZ</DECORATED>
     <FUNCLINE>5</FUNCLINE>

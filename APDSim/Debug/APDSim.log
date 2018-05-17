@@ -1,6 +1,2 @@
-﻿  stdafx.cpp
-  APDSim.cpp
-  node.cpp
-  stack.cpp
-  Generating Code...
+﻿  stack.cpp
   APDSim.vcxproj -> E:\Proyects\C++\APDSim\Debug\APDSim.exe
