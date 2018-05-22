@@ -38,7 +38,6 @@ void node::insertar(node ** tabla,std::string state, std::string transition)
 	}
 	else
 	{
-		std::cout << "New Transition" << std::endl;
 		while (state.compare(n->getContent()))
 		{
 			n = n->getDown();
@@ -113,7 +112,6 @@ void node::printTable(node**table)
 std::string node::getTransition(node * table, std::string state, std::string content)
 {
 	node *n = table;
-	std::cout << "Searching: " + content << std::endl;
 	while (n !=NULL && state.compare(n->getContent()))
 	{
 		n = n->getDown();
