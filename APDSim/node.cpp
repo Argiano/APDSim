@@ -20,11 +20,9 @@ void node::insertar(node ** tabla,std::string state, std::string transition)
 		n = new node(state);
 		*tabla = n;
 		insertarTrans(*tabla, transition);
-		std::cout << "New node: " + n->content << std::endl;
 	}
 	else if (existState(n, state))
-	{
-		std::cout << "New State" << std::endl;
+	{		
 		node *d = n->down;
 		while (d != NULL)
 		{
@@ -33,8 +31,7 @@ void node::insertar(node ** tabla,std::string state, std::string transition)
 		}
 		d = new node(state);
 		n->down = d;
-		insertarTrans(d, transition);
-		std::cout << d->content << std::endl;
+		insertarTrans(d, transition);		
 	}
 	else
 	{
@@ -68,7 +65,7 @@ int node::existState(node *start, std::string state)
 		exists = state.compare(n->content);
 		n = n->down;
 	} while (n != NULL && exists);
-	std::cout << "Exists: " + exists << std::endl;
+
 	return exists;
 }
 
